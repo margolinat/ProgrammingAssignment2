@@ -40,7 +40,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 x <<- y     # re-defines matrix x (declared elsewhere)
                             # and caches it for future use                 
                 inv.matrix <<- NULL
-                            # resets the inverse matrix for the
+                            # re-sets the inverse matrix for the
                             # newly defined matrix x and caches it
         }
         
